@@ -5,5 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Pointers")
+	a := 42
+	p := &a
+	fmt.Println("Value of p:", *p)
+
 }
